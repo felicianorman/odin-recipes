@@ -1,8 +1,5 @@
-html {
-    box-sizing: border-box;
-}
-
 /* nav bar inspo w3schools */
+
 .ul {
     list-style-type: none;
     margin: 0;
@@ -44,7 +41,6 @@ h2, p, li {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-
 img {
     width: 500px;
     display: block;
@@ -58,5 +54,12 @@ h2 {
     
 }
 
+html {
+    box-sizing: border-box;
+}
 
+
+p {
+    text-align: center;
+}
 
