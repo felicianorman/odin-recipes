@@ -1,12 +1,62 @@
+/* nav bar inspo w3schools */
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(221, 221, 221);
+}
+
+.li {
+    font-family:Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.li a {
+    display: block;
+    color: rgb(99, 98, 98);
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color:rgb(212, 211, 211);
+}
+
+.active {
+    background-color:rgb(230, 210, 210);
+}
+
+
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    padding: 10px;
+    border-bottom: 1px rgb(221, 221, 221) solid;
 }
 
 h2, p, li {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 img {
     width: 500px;
-    height: auto;
 }
+
+h2 {
+    text-align: center;
+    border-bottom: 1px rgb(221, 221, 221) solid;
+    
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+p {
+    text-align: center;
+}
+
